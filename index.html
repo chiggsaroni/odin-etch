@@ -15,15 +15,18 @@
         <p>Select a Size</p>
         <button id="popup">Select</button>
     </div>
+    <div class="mode">Mode: Coloring</div>
+    <p id="message"></p>
 
     <div class="board"></div>
 
     <div class="color">
-        <button>Black</button>
-        <button>Random</button>
-        <button>Eraser</button>
-        <button>Reset</button>
+        <button id="dark" onclick="setColor('black')">Black</button>
+        <button id="rgb" onclick="setColor('random')">Random</button>
+        <button onclick="setColor('white')">Eraser</button>
+        <button onclick="resetBoard()">Reset</button>
     </div>
+    
     
 </body>
 </html>

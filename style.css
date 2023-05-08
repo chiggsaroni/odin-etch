@@ -28,3 +28,12 @@ body {
     width: 500px;
     margin-top: 20px;
 }
+
+#dark {
+    background-color: black;
+    color: white;
+}
+
+#rgb {
+    background-color: blue;
+}
